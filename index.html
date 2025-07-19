@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <!--
-	Massively by HTML5 UP
+	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
@@ -12,126 +12,139 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-loading">
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+		<section id="sidebar">
+			<div class="inner">
+				<nav>
+					<ul>
+						<li><a href="#intro">Introduction</a></li>
+						<li><a href="#one">Projects</a></li>
+						<li><a href="#three">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</section>
 
 		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+		<div id="wrapper">
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Christopher Aondoakaa Cybersecurity Analyst Portfolio</h1>
-						<p>This Contains all my Projects and Abilities as a Cybersecurity Analyst.</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
+			<!-- Intro -->
+			<section id="intro" class="wrapper style1 fullscreen fade-up">
+				<div class="inner">
+					<h1>Christopher Aondoakaa Cybersecurity Analyst Portfolio</h1>
+					<p>This Contains all my Projects and Abilities as a Cybersecurity Analyst.</p>
+					<ul class="actions"></ul>
+				</div>
+			</section>
+
+			<!-- Projects -->
+			<section id="one" class="wrapper style2 spotlights">
+				<section>
+					<a href="#" class="image" style="width: 100%; height: 350px; overflow: hidden;">
+						<img src="images/phishing_image.png" alt="Email Header Analysis" style="width: 100%; height: 100%; object-fit: cover;" />
+					</a>
+					<div class="content">
+						<div class="inner">
+							<h2>Email Header Analysis</h2>
+							<p>This project documents the forensic analysis of a spoofed phishing email impersonating Apple ID Support. 
+								I examined the email header, focusing on SPF, DKIM, and DMARC, and broke down the subject and body to uncover social engineering tactics</p>
+							<ul class="actions">
+								<li><a href="https://github.com/chrisaondo/Email-Header-Analysis.git" class="button" target="_blank">View Project</a></li>
+							</ul>
+						</div>
 					</div>
+				</section>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Major Projects</a>
-					</header>
-
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Project titles</a></li>
-
-						</ul>
-						<ul class="icons">
-							<li><a href="http://www.linkedin.com/in/christopher-aondoakaa" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
-							<li><a href="https://github.com/chrisaondo" class="icon fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="#">Vulnerability Assessment</a></h2>
-									<p>This project demonstrates my ability to perform a full-cycle internal 
-								     vulnerability assessment on a Linux-based web server,
-									 automate patch remediation using Ansible,
-									 and configure automated email alerts for continuous security monitoring.</p>
-								</header>
-								<a href="#" class="image main"><img src="images/vulnerability_assessment.png" alt="" /></a>
-								<ul class="actions">
-									<li><a href="https://github.com/chrisaondo/Vulnerability-Assessment.git" class="button big">Check it Out</a></li>
-								</ul>
-							</article>
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<h2><a href="#">Email Header Analysis</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/phishing_image.png" alt="" /></a>
-									<p>This project documents the forensic analysis of a spoofed phishing email impersonating Apple ID Support. I examined the email header, focusing on SPF, DKIM, and DMARC, and broke down the subject and body to uncover social engineering tactics.</p>
-									<ul class="actions">
-										<li><a href="https://github.com/chrisaondo/Email-Header-Analysis.git" class="button">Check it out</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="#">Threat Intellegence</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>.</p>
-									<ul class="actions">
-										<li><a href="#" class="button">Loading...</a></li>
-									</ul>
-								</article>
-								
-							</section>
-
-
+				<section>
+					<a href="#" class="image" style="width: 100%; height: 350px; overflow: hidden;">
+						<img src="images/vulnerability_assessment.png" alt="Vulnerability Assessment" style="width: 100%; height: 100%; object-fit: cover;" />
+					</a>
+					<div class="content">
+						<div class="inner">
+							<h2>Vulnerability Assessment</h2>
+							<p>This project demonstrates my ability to perform a full-cycle internal 
+								vulnerability assessment on a Linux-based web server,
+								automate patch remediation using Ansible,
+								and configure automated email alerts for continuous security monitoring.</p>
+							<ul class="actions">
+								<li><a href="https://github.com/chrisaondo/Vulnerability-Assessment.git" class="button" target="_blank">View Project</a></li>
+							</ul>
+						</div>
 					</div>
+				</section>
 
-				<!-- Footer -->
-					<footer id="footer">
+				<section>
+					<a href="#" class="image" style="width: 100%; height: 350px; overflow: hidden;">
+						<img src="images/cyber-threat-intelligence-1.png" alt="Threat Intelligence" style="width: 100%; height: 100%; object-fit: cover;" />
+					</a>
+					<div class="content">
+						<div class="inner">
+							<h2>Threat Intelligence</h2>
+							<p>This project showcases a full-scope threat intelligence investigation into the MuddyWater APT group using MISP. 
+								I collected and analyzed IOCs such as IPs, domains, and file hashes, correlated events, and mapped the actor’s TTPs using the MITRE ATT&CK framework. 
+								I also built a detailed threat actor profile and created a 7-minute executive-style briefing to present key findings and mitigation strategies. 
+								The project highlights my ability to operationalize threat intel tools, generate actionable insights, 
+								and communicate effectively to both technical and non-technical stakeholders.</p>
+							<ul class="actions">
+								<li><a href="generic.html" class="button" target="_blank">In Progress...</a></li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</section>
 
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>Lagos</p>
-							</section>
-
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">christopheraondoakaa099@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="http://www.linkedin.com/in/christopher-aondoakaa" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
-									<li><a href="https://github.com/chrisaondo" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
+			<!-- Contact -->
+			<section id="three" class="wrapper style1 fade-up">
+				<div class="inner">
+					<h2>Contact</h2>
+					<div class="split style1">
+						<section>
+							<ul class="contact">
+								<li>
+									<h3>Address</h3>
+									<span>Lagos</span>
+								</li>
+								<li>
+									<h3>Email</h3>
+									<a href="mailto:christopheraondoakaa099@gmila.com" target="_blank">christopheraondoakaa099@gmila.com</a>
+								</li>
+								<li>
+									<h3>Social</h3>
+									<ul class="icons">
+										<li><a href="http://www.linkedin.com/in/christopher-aondoakaa" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+										<li><a href="https://github.com/chrisaondo" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+									</ul>
+								</li>
+							</ul>
 						</section>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul>
-                          <li>&copy; <span id="year"></span> Christopher Aondoakaa</li>
-                        </ul>
-
-                         <script>
-                          document.getElementById("year").textContent = new Date().getFullYear();
-                         </script>
-
 					</div>
+				</div>
+			</section>
 
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer" class="wrapper style1-alt">
+			<div class="inner">
+				<ul class="menu">
+					<li>&copy; <span id="year"></span> Christopher Aondoakaa</li>
+				</ul>
+				<script>
+					document.getElementById("year").textContent = new Date().getFullYear();
+				</script>
 			</div>
+		</footer>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
