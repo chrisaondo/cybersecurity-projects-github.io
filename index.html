@@ -1,176 +1,306 @@
 <!DOCTYPE HTML>
 <!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  Cybersecurity Portfolio by Christopher A.
+  Customized from Hyperspace template (html5up.net)
 -->
-<html>
+<html lang="en">
 
-	<head>
-		<title>Cybersecurity Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<head>
+  <title>Cybersecurity Portfolio | Christopher </title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/custom.css" />
+  <noscript>
+    <link rel="stylesheet" href="assets/css/noscript.css" />
+  </noscript>
+</head>
 
-		<!-- Sidebar -->
-		<section id="sidebar">
-			<div class="inner">
-				<nav>
-					<ul>
-						<li><a href="#intro">Introduction</a></li>
-						<li><a href="#one">Projects</a></li>
-						<li><a href="#three">Contact</a></li>
-					</ul>
-				</nav>
-			</div>
-		</section>
+<body class="is-preload">
 
-		<!-- Wrapper -->
-		<div id="wrapper">
+  <!-- Sidebar -->
+  <section id="sidebar">
+    <div class="inner">
+      <nav>
+        <ul>
+          <li><a href="#intro">Introduction</a></li>
+          <li><a href="#skills">Technical Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certs">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </section>
 
-			<!-- Intro -->
-			<section id="intro" class="wrapper style1 fullscreen fade-up">
-				<div class="inner">
-					<h1>Christopher A. Cybersecurity Portfolio</h1>
-					<p>“Proactively hunting threats and transforming intelligence into actionable defense strategies.”</p>
-					<ul class="actions"></ul>
-				</div>
-			</section>
+  <!-- Wrapper -->
+  <div id="wrapper">
 
+    <!-- Intro -->
+    <section id="intro" class="wrapper style1 fullscreen fade-up">
+      <div class="inner">
+        <div class="profile-header">
+          <img src="images/Github.jpg" alt="Christopher Aondoakaa" class="profile-img" />
+          <h1>Christopher A. Cybersecurity Portfolio</h1>
+        </div>
+        <p>“Proactively hunting threats and transforming intelligence into actionable defense strategies.”</p>
+        <div class="actions">
+          <a href="#projects" class="button scrolly">View Projects</a>
+          <a href="resume.pdf" class="button" download>Download Resume</a>
+        </div>
+      </div>
+    </section>
 
+    <!-- Skills -->
+    <section id="skills" class="wrapper style3 fade-up">
+      <div class="inner">
+        <h2>Technical Skills</h2>
+        <div class="features">
+          <section>
+            <span class="icon solid major fa-shield-alt"></span>
+            <h3>Security Tools</h3>
+            <p>Wireshark, Nmap, Metasploit, Burp Suite, Splunk, MISP, ELK Stack</p>
+          </section>
+          <section>
+            <span class="icon solid major fa-code"></span>
+            <h3>Programming</h3>
+            <p>Python, Bash, PowerShell, SQL</p>
+          </section>
+          <section>
+            <span class="icon solid major fa-network-wired"></span>
+            <h3>Networking</h3>
+            <p>TCP/IP, Firewalls, VPN, IDS/IPS, Network Protocols</p>
+          </section>
+          <section>
+            <span class="icon solid major fa-lock"></span>
+            <h3>Security Frameworks</h3>
+            <p>NIST, MITRE ATT&CK, CIS Controls, OWASP</p>
+          </section>
+          <section>
+            <span class="icon solid major fa-desktop"></span>
+            <h3>Operating Systems</h3>
+            <p>Linux, Windows Server, Kali Linux, Ubuntu</p>
+          </section>
+          <section>
+            <span class="icon solid major fa-cloud"></span>
+            <h3>Cloud Security</h3>
+            <p>AWS, Azure, Docker, Kubernetes</p>
+          </section>
+        </div>
+      </div>
+    </section>
 
+    <!-- Projects -->
+    <section id="projects" class="wrapper style2">
+      <div class="inner">
+        <h1>Projects</h1>
 
+        <!-- Filter Buttons -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">Cybersecurity</button>
+          <button class="filter-btn" data-filter="linux">Linux</button>
+          <button class="filter-btn" data-filter="windows">Windows</button>
+          <button class="filter-btn" data-filter="cybersecurity">All</button>
+        </div>
 
-			<!-- Projects -->
-			<section id="one" class="wrapper style2 spotlights">
-				<div class="inner">
-					<h1>Projects</h1>
-				</div>
+        <!-- Grid Layout -->
+        <div class="project-grid">
 
-				<section>
-					<a href="#" class="image" style="width: 100%; height: 350px; overflow: hidden;">
-						<img src="images/linux.jpeg" alt="#" style="width: 100%; height: 100%; object-fit: cover;" />
-					</a>
-					<div class="content">
-						<div class="inner">
-							<h2>Linux for Cybersecurity</h2>
-							<p>Linux is the backbone of most servers, cloud platforms, and security tools.
-                               This prject demonstrates my ability to manage users, set permissions, secure systems, and audit activity with a cybersecurity focus.</p>
-							<ul class="actions">
-								<li><a href="https://github.com/chrisaondo/linux-for-cybersecurity.git" class="button" target="_blank">View Project</a></li>
-							</ul>
-						</div>
-					</div>
-				</section>
+          <!-- Linux Project 
+          <div class="project-card linux">
+            <img src="images/linux-dashboard-screenshot.png" alt="Linux Security Dashboard" />
+            <h3>Linux for Cybersecurity</h3>
+            <p>Implementation of Linux security controls: user management, hardening, and auditing.</p>
+            <div class="tech-stack">
+              <span class="tech-pill">Bash</span>
+              <span class="tech-pill">auditd</span>
+              <span class="tech-pill">SELinux</span>
+            </div>
+            <a href="https://github.com/chrisaondo/linux-for-cybersecurity.git" class="button" target="_blank">View Project</a>
+          </div>
+          -->
 
+          <!-- Windows Project
+          <div class="project-card windows">
+            <img src="images/windows-forensics.png" alt="Windows Forensics" />
+            <h3>Windows Forensics</h3>
+            <p>Investigation of a phishing attack using KAPE, Registry Explorer, and event log analysis.</p>
+            <div class="tech-stack">
+              <span class="tech-pill">KAPE</span>
+              <span class="tech-pill">Registry Explorer</span>
+              <span class="tech-pill">EvtxECmd</span>
+            </div>
+            <a href="https://github.com/chrisaondo/windows-forensics" class="button" target="_blank">View Project</a>
+          </div>
+           -->
 
-				<section>
-					<a href="#" class="image" style="width: 100%; height: 350px; overflow: hidden;">
-						<img src="images/phishing_image.png" alt="Email Header Analysis" style="width: 100%; height: 100%; object-fit: cover;" />
-					</a>
-					<div class="content">
-						<div class="inner">
-							<h2>Email Header Analysis</h2>
-							<p>This project documents the forensic analysis of a spoofed phishing email impersonating Apple ID Support. 
-								I examined the email header, focusing on SPF, DKIM, and DMARC, and broke down the subject and body to uncover social engineering tactics</p>
-							<ul class="actions">
-								<li><a href="https://github.com/chrisaondo/Email-Header-Analysis.git" class="button" target="_blank">View Project</a></li>
-							</ul>
-						</div>
-					</div>
-				</section>
+          <!-- Email Analysis -->
+          <div class="project-card cybersecurity">
+            <img src="images/phishing_image.png" alt="Email Header Analysis" />
+            <h3>Email Header Analysis</h3>
+            <p>Forensic analysis of a spoofed phishing email with SPF, DKIM, and DMARC checks.</p>
+            <div class="tech-stack">
+              <span class="tech-pill">Email Forensics</span>
+              <span class="tech-pill">SPF</span>
+              <span class="tech-pill">DKIM</span>
+            </div>
+            <a href="https://github.com/chrisaondo/Email-Header-Analysis.git" class="button" target="_blank">View Project</a>
+          </div>
 
-				<section>
-					<a href="#" class="image" style="width: 100%; height: 350px; overflow: hidden;">
-						<img src="images/vulnerability_assessment.png" alt="Vulnerability Assessment" style="width: 100%; height: 100%; object-fit: cover;" />
-					</a>
-					<div class="content">
-						<div class="inner">
-							<h2>Vulnerability Assessment</h2>
-							<p>This project demonstrates my ability to perform a full-cycle internal 
-								vulnerability assessment on a Linux-based web server,
-								automate patch remediation using Ansible,
-								and configure automated email alerts for continuous security monitoring.</p>
-							<ul class="actions">
-								<li><a href="https://github.com/chrisaondo/Vulnerability-Assessment.git" class="button" target="_blank">View Project</a></li>
-							</ul>
-						</div>
-					</div>
-				</section>
+          <!-- Vulnerability Assessment -->
+          <div class="project-card cybersecurity">
+            <img src="images/vulnerability_assessment.png" alt="Vulnerability Assessment" />
+            <h3>Vulnerability Assessment</h3>
+            <p>Internal vulnerability scanning with Nessus, automated remediation with Ansible.</p>
+            <div class="tech-stack">
+              <span class="tech-pill">Nessus</span>
+              <span class="tech-pill">Ansible</span>
+              <span class="tech-pill">Linux</span>
+            </div>
+            <a href="https://github.com/chrisaondo/Vulnerability-Assessment.git" class="button" target="_blank">View Project</a>
+          </div>
 
-				<section>
-					<a href="#" class="image" style="width: 100%; height: 350px; overflow: hidden;">
-						<img src="images/cyber-threat-intelligence-1.png" alt="Threat Intelligence" style="width: 100%; height: 100%; object-fit: cover;" />
-					</a>
-					<div class="content">
-						<div class="inner">
-							<h2>Threat Intelligence</h2>
-							<p>This project showcases a full-scope threat intelligence investigation into the MuddyWater APT group using MISP. 
-								I collected and analyzed IOCs such as IPs, domains, and file hashes, correlated events, and mapped the actor’s TTPs using the MITRE ATT&CK framework. 
-								I also built a detailed threat actor profile and created a 7-minute executive-style briefing to present key findings and mitigation strategies. 
-								The project highlights my ability to operationalize threat intel tools, generate actionable insights, 
-								and communicate effectively to both technical and non-technical stakeholders.</p>
-							<ul class="actions">
-								<li><a href="https://github.com/chrisaondo" class="button" target="_blank">In Progress...</a></li>
-							</ul>
-						</div>
-					</div>
-				</section>
-			</section>
+          <!-- Threat Intelligence 
+          <div class="project-card cybersecurity">
+            <img src="images/threat-intel-dashboard.png" alt="Threat Intelligence" />
+            <h3>Threat Intelligence</h3>
+            <p>Investigation of MuddyWater APT group in MISP with MITRE ATT&CK mapping.</p>
+            <div class="tech-stack">
+              <span class="tech-pill">MISP</span>
+              <span class="tech-pill">MITRE ATT&CK</span>
+              <span class="tech-pill">Threat Hunting</span>
+            </div>
+            <a href="https://github.com/chrisaondo" class="button" target="_blank">In Progress...</a>
+          </div>
+          --> 
 
-			<!-- Contact -->
-			<section id="three" class="wrapper style1 fade-up">
-				<div class="inner">
-					<h2>Contact</h2>
-					<div class="split style1">
-						<section>
-							<ul class="contact">
-								<li>
-									<h3>Address</h3>
-									<span>Lagos</span>
-								</li>
-								<li>
-									<h3>Email</h3>
-									<a href="mailto:christopheraondoakaa099@gmila.com" target="_blank">christopheraondoakaa099@gmila.com</a>
-								</li>
-								<li>
-									<h3>Social</h3>
-									<ul class="icons">
-										<li><a href="http://www.linkedin.com/in/christopher-aondoakaa" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-										<li><a href="https://www.github.com/chrisaondo" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
-									</ul>
-								</li>
-							</ul>
-						</section>
-					</div>
-				</div>
-			</section>
+          <!-- SOC Dashboard 
+          <div class="project-card other">
+            <img src="images/soc-dashboard.png" alt="SOC Dashboard" />
+            <h3>SOC Analyst Dashboard</h3>
+            <p>Created a SIEM dashboard for real-time monitoring of security events using Splunk.</p>
+            <div class="tech-stack">
+              <span class="tech-pill">Splunk</span>
+              <span class="tech-pill">SIEM</span>
+              <span class="tech-pill">Log Analysis</span>
+            </div>
+            <a href="https://github.com/chrisaondo" class="button" target="_blank">View Project</a>
+          </div>
+         -->
 
-		</div>
+        </div>
+      </div>
+    </section>
 
-		<!-- Footer -->
-		<footer id="footer" class="wrapper style1-alt">
-			<div class="inner">
-				<ul class="menu">
-					<li>&copy; <span id="year"></span> Christopher Aondoakaa</li>
-				</ul>
-				<script>
-					document.getElementById("year").textContent = new Date().getFullYear();
-				</script>
-			</div>
-		</footer>
+    <!-- Certifications -->
+    <section id="certs" class="wrapper style3 fade-up">
+      <div class="inner">
+        <h2>Certifications</h2>
+        <div class="cert-badges">
+          <div class="cert-badge">Google<br>Cybersecurity (Google)</div>
+          <div class="cert-badge">Cybersecurity Analyst Training (10Alytics)</div>
+        </div>
+        <p>Currently pursuing: CompTIA Security+, CISSP, CySA+</p>
+      </div>
+    </section>
 
-		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.scrollex.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
+    <!-- Contact -->
+    <section id="contact" class="wrapper style1 fade-up">
+      <div class="inner">
+        <h2>Contact</h2>
+        <div class="split style1">
+          <section>
+            <form method="post" action="#">
+              <div class="fields">
+                <div class="field half">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" id="name" />
+                </div>
+                <div class="field half">
+                  <label for="email">Email</label>
+                  <input type="text" name="email" id="email" />
+                </div>
+                <div class="field">
+                  <label for="message">Message</label>
+                  <textarea name="message" id="message" rows="5"></textarea>
+                </div>
+              </div>
+              <ul class="actions">
+                <li><a href="" class="button submit">Send Message</a></li>
+              </ul>
+            </form>
+          </section>
+          <section>
+            <ul class="contact">
+              <li>
+                <h3>Address</h3>
+                <span>Lagos, Nigeria</span>
+              </li>
+              <li>
+                <h3>Email</h3>
+                <a href="mailto:christopheraondoakaa099@gmail.com">christopheraondoakaa099@gmail.com</a>
+              </li>
+              <li>
+                <h3>Social</h3>
+                <ul class="icons">
+                  <li><a href="https://www.github.com/chrisaondo" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+                  <li><a href="http://www.linkedin.com/in/christopher-aondoakaa" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </section>
 
-	</body>
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer" class="wrapper style1-alt">
+    <div class="inner">
+      <ul class="menu">
+        <li>&copy; <span id="year"></span> Christopher Aondoakaa. All rights reserved.</li>
+      </ul>
+      <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <!-- Filtering Script -->
+  <script>
+    const filterBtns = document.querySelectorAll(".filter-btn");
+    const projects = document.querySelectorAll(".project-card");
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        filterBtns.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+
+        const filter = btn.getAttribute("data-filter");
+
+        projects.forEach(project => {
+          if (filter === "all" || project.classList.contains(filter)) {
+            project.style.display = "block";
+          } else {
+            project.style.display = "none";
+          }
+        });
+      });
+    });
+	
+  </script>
+ 
+
+</body>
+
 </html>

@@ -3907,3 +3907,57 @@ input, select, textarea {
 			}
 
 		}
+		/* Add to your main.css file */
+.tech-stack {
+  margin: 1rem 0;
+}
+
+.tech-pill {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  margin: 0.2rem;
+  font-size: 0.8rem;
+}
+
+.project-stats {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.stat {
+  margin-right: 2rem;
+}
+
+.stat-number {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: block;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+/* Style for certification badges */
+.cert-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.cert-badge {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #2e3842;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+}
